@@ -3,7 +3,6 @@ header, nav, .seccion, footer {
 }
 
 header {
-    display: block;
     text-align: center;
 }
 
@@ -33,23 +32,26 @@ nav ul li {
     width: 100px;
 }
 
+main {
+    overflow: auto;
+}
+
 .seccion {
-    display: block;
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
 }
 
 footer {
-    display: block;
     text-align: center;
 }
 
 aside {
-    display: block;
+    text-align: center;
     float: left;
     width: 150px;
     background-color: cadetblue;
+    padding-top: 20px;
 }
 nav ul li {
     display: inline;
